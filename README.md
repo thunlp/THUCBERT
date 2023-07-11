@@ -35,11 +35,11 @@ model = AutoModel.from_pretrained("chengzl18/thucbert-mm")
 
 ## 训练效果
 
-##### PPL
+#### PPL
 
 在随机语料上进行验证，THUCBERT训练完成时的perplexity为2.20，显著低于bert-base-chinese的2.78。（需要注意perplexity也与词表有关，此对比仅供参考）
 
-##### 字表示
+#### 字表示
 
 字表示（采用embedding层的最近邻）如下：
 
@@ -63,7 +63,7 @@ bert-base-chinese
 寻: 尋 觅 找 覓 讨 搜 询 尝 谋 选
 ```
 
-##### 掩码预测
+#### 掩码预测
 
 MASK预测效果如下：
 
@@ -87,7 +87,7 @@ bert-base-chinese
 凡事都有两面性，我们要[MASK][MASK]地看待。: 观 性 确 等 平 容 慎 面 理 心
 ```
 
-##### 下游任务
+#### 下游任务
 
 在我们已进行的测试中，THUCBERT在各种文本分类任务上与[哈工大的BERT模型](https://huggingface.co/hfl/chinese-bert-wwm-ext)效果相当，在中文分词（[DeepTHULAC](https://github.com/thunlp/DeepTHULAC)基于THUCBERT-cm开发而成）、命名实体识别和语法改错任务上有明显的性能提升。
 
