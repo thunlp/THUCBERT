@@ -19,7 +19,7 @@ THUCBERT是由清华大学自然语言处理与社会人文计算实验室开发
 | 模型名称    | MASK策略 | Hugginface地址🤗                                              |
 | ----------- | -------- | ------------------------------------------------------------ |
 | THUCBERT-cm | 字       | <a href="https://huggingface.co/chengzl18/thucbert-cm">thucbert-cm</a> |
-| THUCBERT-mm | 层次化   | <a href="https://huggingface.co/chengzl18/thucbert-cm">thucbert-mm</a> |
+| THUCBERT-mm | 层次化   | <a href="https://huggingface.co/chengzl18/thucbert-mm">thucbert-mm</a> |
 
 ## 使用方式
 
